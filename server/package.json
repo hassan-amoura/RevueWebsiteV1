@@ -1,9 +1,21 @@
 {
-  "name": "server",
+  "name": "revue-qa-website",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "both": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassan-amoura/RevueWebsiteV1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hassan-amoura/RevueWebsiteV1/issues"
   },
   "keywords": [],
   "author": "",
