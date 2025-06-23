@@ -1,0 +1,17 @@
+{
+  "name": "revue-qa-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "both": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "framer-motion": "^12.19.1",
+    "react-scripts": "^5.0.1"
+  }
+}

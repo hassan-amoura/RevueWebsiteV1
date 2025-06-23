@@ -1,0 +1,30 @@
+
+.problem {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.problem-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+}
+
+.problem-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+
+.solution {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.solution-card {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.solution-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.solution-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #cccccc;
+}
